@@ -7,7 +7,7 @@ namespace hur_många_versaler.Model
 {
     public static class TextaAnalyzer
     {
-        public static int GetNumberOfCapitals(string text){
+        public int GetNumberOfCapitals(string text){
 
             return 1;
         
