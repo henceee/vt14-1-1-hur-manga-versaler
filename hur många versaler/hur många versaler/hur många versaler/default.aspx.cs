@@ -11,7 +11,7 @@ namespace hur_många_versaler
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            //...
         }
 
         protected void CapsButton_Click(object sender, EventArgs e)
@@ -21,18 +21,17 @@ namespace hur_många_versaler
                 CapsTextBox.Enabled = false;
                 CapsButton.Text = "Rensa";
 
+                int uppers = hur_många_versaler.Model.TextaAnalyzer.GetNumberOfCapitals(CapsTextBox.Text);
+
+                CapsLabel.Text = "Texten innehåller " + uppers + " versaler";
                 
-
-            }
-
-            else {
+            } else {
 
                 CapsTextBox.Text = "";
+                CapsLabel.Text = "";
                 CapsTextBox.Enabled = true;
                 CapsButton.Text = "Bestäm antal versaler";
-            
             }
-           
         }
     }
 }

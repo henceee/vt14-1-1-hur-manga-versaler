@@ -40,15 +40,6 @@ namespace hur_många_versaler {
         protected global::System.Web.UI.WebControls.TextBox CapsTextBox;
         
         /// <summary>
-        /// CapsButton control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button CapsButton;
-        
-        /// <summary>
         /// CapsLabel control.
         /// </summary>
         /// <remarks>
@@ -56,5 +47,14 @@ namespace hur_många_versaler {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label CapsLabel;
+        
+        /// <summary>
+        /// CapsButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button CapsButton;
     }
 }
